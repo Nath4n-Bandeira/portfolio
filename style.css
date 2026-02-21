@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color variables requested by user */
+:root {
+	--page-bg: #cccccc;
+	--page-fg: #121212;
+	--accent: #7a0d0d;
+	--main-radius: 12px;
+}
+
+/* Page base */
+body {
+	background: var(--page-bg);
+	color: var(--page-fg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Page outline gradient and main styling */
+main {
+	border: 6px solid transparent;
+	border-image: linear-gradient(120deg, rgba(0,0,0,0.7) 0%, var(--accent) 100%) 1;
+	border-radius: var(--main-radius);
+	box-shadow: 0 0 32px 0 rgba(122,13,13,0.10);
+}
+
+/* Make primary utility classes follow accent color */
+.text-primary { color: var(--accent) !important; }
+.bg-primary { background-color: var(--accent) !important; }
+.border-primary\/20 { border-color: rgba(122,13,13,0.12) !important; }
+
+/* Slight accent on cards and subtle inner outline */
+.card-glow { box-shadow: 0 2px 12px 0 rgba(122,13,13,0.08), inset 0 0 0 1.5px rgba(122,13,13,0.10); }
+
+/* Ensure content area contrasts with page background */
+main > * { background: transparent; }
+
+/* Optional: slightly lift cards with a subtle inner background */
+.card-bg { background-color: rgba(255,255,255,0.13); }
+
+/* Nav bar styling for harmony */
+nav {
+	background: rgba(255,255,255,0.85);
+	border-bottom: 2px solid var(--accent);
+	box-shadow: 0 2px 12px 0 rgba(122,13,13,0.08);
+	color: var(--page-fg);
+}
+nav a, nav .text-gradient {
+	color: var(--accent) !important;
+}
+nav a:hover {
+	text-decoration: underline;
+	color: #000 !important;
+}
+
+

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portifólio</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+  </head>
+  <body class="min-h-screen">
+    <main>
+      
+      <nav class="fixed top-0 w-full z-50 backdrop-blur-lg bg-background/80 border-b border-primary/20">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16 items-center">
+            <a href="#" class="text-2xl font-bold text-gradient glow-text">Nathan.dev</a>
+            <div class="hidden md:flex space-x-8">
+              <a href="#sobre" class="text-foreground hover:text-primary transition-colors">Sobre</a>
+              <a href="#projetos" class="text-foreground hover:text-primary transition-colors">Projetos</a>
+              <a href="#contato" class="text-foreground hover:text-primary transition-colors">Contato</a>
+            </div>
+            <button class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 hover:bg-accent hover:text-accent-foreground h-10 w-10 md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6">
+                <line x1="4" x2="20" y1="12" y2="12"></line>
+                <line x1="4" x2="20" y1="6" y2="6"></line>
+                <line x1="4" x2="20" y1="18" y2="18"></line>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </nav>
+      
+  <section class="pt-32 black">
+     <div class="hero ">
+     <div class="hero-content flex-col lg:flex-row-reverse">
+    <img
+      src="./public/143651576.jpg"
+      class="max-w-sm rounded-lg shadow-2xl"
+    />
+    <div>
+      <h1 class="text-5xl font-bold">Oi, eu sou o Nathan</h1>
+      <p class="py-6">
+        Programador Full stack, formandondo em Análise e Desenvolvimento de Sistemas
+      </p>
+    </div>
+  </div>
+</div>
+</section>
+
+
+<section id="sobre" class="py-20 px-4 text-center content-center">
+  <div class="max-w-6xl mx-auto flex flex-col items-center">
+    <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gradient glow-text">Sobre Mim</h2>
+    <p class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">Desenvolvedor apaixonado por tecnologia e inovação</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 justify-items-center justify-center place-items-center">
+      <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-transform">
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="p-3 rounded-full bg-primary/10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-graduation-cap h-8 w-8 text-primary">
+              <path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z"></path>
+              <path d="M22 10v6"></path>
+              <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gradient">Formação</h3>
+          <p class="text-muted-foreground">Formando em bacharelado em Análise e Desenvolvimento de Sistemas</p>
+        </div>
+      </div>
+
+     <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-transform">
+        <div class="flex flex-col items-center text-center space-y-4">
+          <div class="p-3 rounded-full bg-primary/10">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-award h-8 w-8 text-primary">
+              <path d="m15.477 12.89 1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"></path>
+              <circle cx="12" cy="8" r="6"></circle>
+            </svg>
+          </div>
+          <h3 class="text-xl font-semibold text-gradient">Expertise</h3>
+          <p class="text-muted-foreground">Desenvolvimento web, análise de dados, machine learning e <a href="https://www.credly.com/badges/940d8470-2d3f-404f-bc82-fef020b523e4/linked_in_profile"> Certificado AWS cloud praticoner</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rounded-lg border text-card-foreground shadow-sm p-8 bg-card border-primary/20 card-glow">
+      <p class="text-lg text-foreground/90 leading-relaxed">Sou <span class="text-primary font-semibold">Desenvolvedor</span><span class="text-primary font-semibold"> Full Stack</span>. Trabalho com desenvolvimento Web e <span class="text-primary font-semibold">Análise de Dados</span>. Tenho conhecimento em <span class="text-primary font-semibold">Machine Learning</span> e diversas técnicas avançadas de análise. Durante minha formação já <span class="text-primary font-semibold">Desenvolvi</span> uma variedade de projetos, incluindo sites Web, criação de aplicativos, landing pages e Tópicos que envolvem a area de gestão de Redes, servidores, e infraestrutura de TI.</p>
+    </div>
+  </div>
+</section>
+      
+      
+     
+
+      <section id="projetos">
+        <div class="max-w-7xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gradient glow-text">Projetos</h2>
+          <p class="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">Alguns dos meus trabalhos mais recentes e significativos</p>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Card 1: Foodflow -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300 group">
+              <div class="space-y-4">
+                <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">🍱</div>
+                <h3 class="text-xl font-semibold text-gradient">Foodflow</h3>
+                <p class="text-muted-foreground">Plataforma para simplificar o armazenamento de alimentos no dia a dia, tanto em ambientes profissionais quanto domésticos com interface intuitiva</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">Node.js</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">Prisma</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">React</span>
+                </div>
+                <a href="https://github.com/Nath4n-Bandeira/foodflow-demo-prod" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border bg-background h-10 px-4 py-2 w-full border-primary/30 hover:bg-primary hover:text-primary-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4 mr-2">
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                  Ver Projeto
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 2: Horde-auction-house -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300 group">
+              <div class="space-y-4">
+                <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">⚔️</div>
+                <h3 class="text-xl font-semibold text-gradient">Horde Auction House</h3>
+                <p class="text-muted-foreground">Sistema de leilão robusto desenvolvido com TypeScript, oferecendo uma experiência completa para compra e venda de itens com segurança</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">TypeScript</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">React</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">CSS</span>
+                </div>
+                <a href="https://github.com/Nath4n-Bandeira/Horde-auction-house" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border bg-background h-10 px-4 py-2 w-full border-primary/30 hover:bg-primary hover:text-primary-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4 mr-2">
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                  Ver Projeto
+                </a>
+              </div>
+            </div>
+
+            <!-- Card 3: Pixel-post -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300 group">
+              <div class="space-y-4">
+                <div class="text-5xl mb-4 group-hover:scale-110 transition-transform">🎨</div>
+                <h3 class="text-xl font-semibold text-gradient">Pixel-Post</h3>
+                <p class="text-muted-foreground">Rede social minimalista com estética retro pixel-art construída em Laravel, um projeto educacional para explorar CRUD e relacionamentos de modelos</p>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">PHP</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">Laravel</span>
+                  <span class="px-3 py-1 text-xs rounded-full bg-primary/10 text-primary border border-primary/20">Tailwind CSS</span>
+                </div>
+                <a href="https://github.com/Nath4n-Bandeira/Pixel-post" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 border bg-background h-10 px-4 py-2 w-full border-primary/30 hover:bg-primary hover:text-primary-foreground">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-external-link h-4 w-4 mr-2">
+                    <path d="M15 3h6v6"></path>
+                    <path d="M10 14 21 3"></path>
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  </svg>
+                  Ver Projeto
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto">
+          <h2 class="text-4xl md:text-5xl font-bold text-center mb-4 text-gradient glow-text">Entre em Contato</h2>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+  
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300">
+              <a href="https://wa.me/555381494431" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="p-3 rounded-full bg-primary/10 text-green-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone h-6 w-6">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="font-semibold text-foreground/90">WhatsApp</h3>
+                  <p class="text-sm text-muted-foreground">+55 53 8149-4431</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- Email Card -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300">
+              <a href="mailto:NathanBandeiraContato@outlook.com" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="p-3 rounded-full bg-primary/10 text-red-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail h-6 w-6">
+                    <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="font-semibold text-foreground/90">Email</h3>
+                  <p class="text-sm text-muted-foreground">NathanBandeiraContato@outlook.com</p>
+                </div>
+              </a>
+            </div>
+
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300">
+              <a href="https://www.instagram.com/cerberism/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="p-3 rounded-full bg-primary/10 text-pink-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram h-6 w-6">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="font-semibold text-foreground/90">Instagram Pessoal</h3>
+                  <p class="text-sm text-muted-foreground">@cerberism - Nathan Bandeira</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300">
+              <a href="https://www.linkedin.com/in/nathan-bandeira-a499212b5/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="p-3 rounded-full bg-primary/10 text-blue-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin h-6 w-6">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect width="4" height="12" x="2" y="9"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="font-semibold text-foreground/90">LinkedIn</h3>
+                  <p class="text-sm text-muted-foreground">Nathan Bandeira</p>
+                </div>
+              </a>
+            </div>
+
+            <!-- GitHub Card -->
+            <div class="rounded-lg border text-card-foreground shadow-sm p-6 bg-card border-primary/20 card-glow hover:scale-105 transition-all duration-300">
+              <a href="https://github.com/Nath4n-Bandeira" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4">
+                <div class="p-3 rounded-full bg-primary/10 text-purple-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github h-6 w-6">
+                    <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                    <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                  </svg>
+                </div>
+                <div class="flex-1">
+                  <h3 class="font-semibold text-foreground/90">GitHub</h3>
+                  <p class="text-sm text-muted-foreground">@nath4n-bandeira</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+
+  </body>
+</html>
